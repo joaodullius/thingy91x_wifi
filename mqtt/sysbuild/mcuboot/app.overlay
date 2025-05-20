@@ -3,4 +3,8 @@
  * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
  */
 
-#include <thingy91x_wifi.dtsi>
+/ {
+	chosen {
+		zephyr,code-partition = &boot_partition;
+	};
+};
